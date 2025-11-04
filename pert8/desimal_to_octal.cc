@@ -14,6 +14,8 @@ int main() {
         temp /= 8;
     }
 
-    cout << "Bilangan oktal dari " << n << " adalah: " << (oktal == "" ? "0" : oktal) << endl;
+    cout << "Bilangan oktal dari " << n << " adalah: " 
+         << (oktal == "" ? "0" : oktal) << endl;
+
     return 0;
 }

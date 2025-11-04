@@ -15,6 +15,8 @@ int main() {
         temp /= 16;
     }
 
-    cout << "Bilangan heksadesimal dari " << n << " adalah: " << (heksa == "" ? "0" : heksa) << endl;
+    cout << "Bilangan heksadesimal dari " << n << " adalah: " 
+         << (heksa == "" ? "0" : heksa) << endl;
+
     return 0;
 }
